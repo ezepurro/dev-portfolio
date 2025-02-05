@@ -1,0 +1,33 @@
+
+body {
+  background: rgb(18,35,36);
+  background: linear-gradient(180deg, rgba(18,35,36,1) 0%, rgba(6,121,128,1) 100%);
+  font-family: 'Montserrat';
+  color: #FCF7FF;
+  margin: 0;
+}
+
+
+@keyframes animate-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-bg {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(45deg, #122324, #2f3a32, #545748, #3e2414);
+  background-size: 300% 300%;
+  animation: animate-gradient 6s infinite ease-in-out;
+}
+
+h1 {
+  margin: 0;
+}
