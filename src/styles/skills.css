@@ -9,21 +9,78 @@
     svg:hover {
         transform: scale(1.2);
     }
-  
-    svg.SiPython:hover {
-        color: #3776AB; 
+    
+    .SiPython:hover {
+        color: #3776AB;
     }
-  
-    svg.SiJavascript:hover {
-        color: #F7DF1E; 
+    
+    .SiJavascript:hover {
+        color: #F7DF1E;
     }
-  
-    svg.SiTypescript:hover {
-        color: #3178C6; 
+    
+    .SiTypescript:hover {
+        color: #3178C6;
     }
-  
-    svg.DiJava:hover {
-        color: #EC2025; 
+    
+    .DiJava:hover {
+        color: #EC2025;
+    }
+    
+    .SiHtml5:hover {
+        color: #E34F26;
+    }
+    
+    .SiCss3:hover {
+        color: #1572B6;
+    }
+
+    .SiReact:hover {
+        color: #61DAFB;
+    }
+    
+    .SiTailwindcss:hover {
+        color: #38B2AC;
+    }
+    
+    .SiDjango:hover {
+        color: #092E20;
+    }
+    
+    .SiMongodb:hover {
+        color: #47A248;
+    }
+    
+    .SiNodedotjs:hover {
+        color: #68A063;
+    }
+    
+    .SiExpress:hover {
+        color: #000000;
+    }
+    
+    .lang {
+        margin: 10px 0px 10px 0px;
+    }
+
+    .frontend {
+        margin: 10px 0px 10px 0px;
+    }
+
+    .backend {
+        margin: 10px 0px 10px 0px;
+        text-align: center;
+    }
+
+    .database {
+        margin: 10px 0px 10px 0px;
+    }
+
+    .tech {
+        margin: 10px;
+        p {
+            font-size: 45px;
+            margin-left: 10px
+        }
     }
 }
   
