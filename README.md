@@ -16,17 +16,17 @@ This portfolio is built using:
 ## 🎨 Color Palette  
 This portfolio follows a consistent and modern color scheme:  
 
-| Color Name  | Hex Code | Preview |
-|------------|---------|---------|
-| Background | `#122324` | ![#122324](https://via.placeholder.com/20/122324/000000?text=+) |
-| Text       | `#FCF7FF` | ![#FCF7FF](https://via.placeholder.com/20/FCF7FF/FFFFFF?text=+) |
+| Color Name  | Hex Code |
+|------------|---------|
+| Background | `#122324` |
+| Text       | `#FCF7FF` |
 
 
   
 ## 📬 Contact  
 If you’d like to connect, feel free to reach out:  
-- 📧 Email: ezequiel.purro@gmail.com
-- 💼 [LinkedIn](#) https://www.linkedin.com/in/ezequiel-purro-75920b7a/
+- 📧 ezequiel.purro@gmail.com
+- 💼 [LinkedIn](https://www.linkedin.com/in/ezequiel-purro-75920b7a/) 
 
 Feel free to explore, fork, and contribute if you find anything interesting 🚀  
 

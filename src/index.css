@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Oswald:wght@200..700&display=swap');
 
 body {
   background: rgb(18,35,36);
   background: linear-gradient(180deg, rgba(18,35,36,1) 0%, rgba(6,121,128,1) 100%);
-  font-family: 'Montserrat';
+  font-family: 'Figtree';
   color: #FCF7FF;
   margin: 0;
 }
@@ -21,13 +22,13 @@ body {
 }
 
 .animated-bg {
+  position: absolute; 
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100vh;
+  z-index: -1; 
   background: linear-gradient(45deg, #122324, #2f3a32, #545748, #3e2414);
   background-size: 300% 300%;
   animation: animate-gradient 6s infinite ease-in-out;
-}
-
-h1 {
-  margin: 0;
 }
