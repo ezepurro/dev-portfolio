@@ -3,14 +3,12 @@
     text-align: center;
 
     h1 {
-        margin: 50px 0px 0px 0px;
         font-size: 450%;
         font-family: 'Oswald';
         font-weight: 400;
-      }
+    }
       
     p {
         font-family: 'Oswald';
-        margin: 0px;
     }
 }

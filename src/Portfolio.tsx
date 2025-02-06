@@ -1,10 +1,15 @@
+import Navbar from "./components/Navbar";
 import Welcome from "./components/Welcome";
 
 const Portfolio = () => {
   return (
     <div>
-        <Welcome />
-        <div className="animated-bg"></div>
+        <Navbar />
+        <div className="flex justify-center items-center h-screen">
+            <Welcome />
+        </div>
+
+        <div className="animated-bg"></div>   
     </div>
   )
 }
