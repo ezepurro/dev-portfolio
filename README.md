@@ -12,6 +12,7 @@ This repository serves as my personal portfolio, where you can find:
 This portfolio is built using:  
 - React
 - Typescript
+- TailwindCss
 
 ## 🎨 Color Palette  
 This portfolio follows a consistent and modern color scheme:  

@@ -1,0 +1,29 @@
+.skills {
+  
+    svg {
+        transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+        cursor: pointer;
+        color: white;
+    }
+  
+    svg:hover {
+        transform: scale(1.2);
+    }
+  
+    svg.SiPython:hover {
+        color: #3776AB; 
+    }
+  
+    svg.SiJavascript:hover {
+        color: #F7DF1E; 
+    }
+  
+    svg.SiTypescript:hover {
+        color: #3178C6; 
+    }
+  
+    svg.DiJava:hover {
+        color: #EC2025; 
+    }
+}
+  
