@@ -38,7 +38,7 @@ const Navbar = () => {
             {/* Mobile Menu */}
             {isOpen && (
                 <div className="md:hidden bg-600 text-white absolute top-15 left-0 right-0 bottom-0 z-50">
-                    <a href="#" className="block px-4 py-2">Home</a>
+                    <a href="#home" className="block px-4 py-2">Home</a>
                     <a href="#about" className="block px-4 py-2">About</a>
                     <a href="#skills" className="block px-4 py-2">Skills</a>
                     <a href="#projects" className="block px-4 py-2">Projects</a>

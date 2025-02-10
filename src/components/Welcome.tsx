@@ -3,7 +3,7 @@ import '../styles/welcome.css';
 
 const Welcome = () => {
     return (
-        <div className="welcome" id="home">
+        <div className="welcome">
             <motion.h1
                 initial={{ opacity: 0, x: 25 }}
                 animate={{ opacity: 1, x: 0 }}
