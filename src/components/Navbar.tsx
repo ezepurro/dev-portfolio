@@ -17,7 +17,7 @@ const Navbar = () => {
 
                 {/* Desktop */}
                 <div className="hidden md:flex space-x-4">
-                    <a href="#" className="text-white px-4 py-2 rounded">Home</a>
+                    <a href="#home" className="text-white px-4 py-2 rounded">Home</a>
                     <a href="#about" className="text-white px-4 py-2 rounded">About</a>
                     <a href="#skills" className="block px-4 py-2">Skills</a>
                     <a href="#projects" className="block px-4 py-2">Projects</a>

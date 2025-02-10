@@ -1,6 +1,5 @@
 import Navbar from "./components/Navbar";
-import Skills from "./components/Skills";
-import Welcome from "./components/Welcome";
+import Sections from "./components/Sections";
 
 
 
@@ -8,13 +7,7 @@ const Portfolio = () => {
   return (
     <>
         <Navbar />
-        <div className="flex justify-center items-center h-screen">
-            <Welcome />
-        </div>
-        <div className="flex justify-center items-center">
-            <Skills />
-        </div>
-        
+        <Sections />
         <div className="animated-bg"></div>   
     </>
   )
