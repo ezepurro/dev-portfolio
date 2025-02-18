@@ -1,0 +1,13 @@
+---
+const { origin } = Astro.props;
+---
+
+<nav class="h-15 w-full text-center border rounded-2xl mt-5">
+    <ul class="mt-3">
+        {
+            origin.map((data) => {
+                return <li class="inline mx-2 sm:mx-15"><a href={data.link}>{data.content}</a></li>
+            })
+        }
+    </ul>
+</nav>
