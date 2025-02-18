@@ -1,14 +1,18 @@
 ---
+import { mainMenu } from '../data/menuData';
 import Layout from '../layouts/Layout.astro';
 import Welcome from '../components/Welcome.astro';
 import Navbar from '../components/Navbar.astro';
+import About from '../components/About.astro';
 import '../styles/global.css';
-import { mainMenu } from '../data/menuData';
 ---
 
 <Layout>
 	<div class="absolute inset-0 -z-10 h-full w-full items-center px-5 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)] text-white">
 		<Navbar origin={mainMenu} />
-		<Welcome />
+		<div class="absolute inset-0 -z-10 h-full w-full  bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]">
+			<Welcome />
+		</div>
 	</div>
+	<About />
 </Layout>
