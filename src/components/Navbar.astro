@@ -2,12 +2,14 @@
 const { origin } = Astro.props;
 ---
 
-<nav class="h-10 lg:h-15 w-full text-center border rounded-2xl mt-5">
-    <ul class="mt-2 lg:mt-3">
-        {
-            origin.map((data) => {
-                return <li class="inline mx-2 sm:mx-15"><a href={data.link}>{data.content}</a></li>
-            })
-        }
-    </ul>
+<nav class="pt-5">
+    <div class="h-10 lg:h-15 w-full text-center border rounded-2xl mt-5">
+        <ul class="mt-2 lg:mt-3">
+            {
+                origin.map((data) => {
+                    return <li class="inline mx-2 sm:mx-15"><a href={data.link}>{data.content}</a></li>
+                })
+            }
+        </ul>
+    </div>
 </nav>

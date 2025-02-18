@@ -1,4 +1,30 @@
+---
+import { Icon } from 'astro-icon/components';
+import { techData } from '../data/techData';
+import '../styles/icons.css';
 
-<div class="">
-    
+const groupedTechs = techData.reduce((acc, tech) => {
+    acc[tech.category] = acc[tech.category] || [];
+    acc[tech.category].push(tech);
+    return acc;
+}, {});
+---
+
+
+<div class="w-full h-screen bg-black border-white border-[1rem] rounded-4xl mt-100" id="about">
+    <h3>About me</h3>
+    <p>Software Engineering Student & Web Developer</p>
+
+    {
+        Object.entries(groupedTechs).map(([category, techs]) => (
+            <div key={category} class="mt-5">
+                <h4 class="text-xl font-bold">{category}</h4>
+                <div class="flex flex-wrap gap-5 mt-2">
+                    {techs.map((tech) => (
+                        <Icon name={tech.name} class={tech.class} />
+                    ))}
+                </div>
+            </div>
+        ))
+    }
 </div>
