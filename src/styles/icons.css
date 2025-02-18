@@ -1,59 +1,52 @@
-.python:hover {
+svg {
     transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.python:hover {
     color: #3776AB;
 }
 
 .javascript:hover {
-    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
     color: #F7DF1E;
 }
 
 .typescript:hover {
-    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
     color: #3178C6;
 }
 
 .java:hover {
-    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
     color: #EC2025;
 }
 
 .html:hover {
-    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
     color: #E34F26;
 }
 
 .css:hover {
-    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
     color: #1572B6;
 }
 
 .react:hover {
-    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
     color: #61DAFB;
 }
 
 .tailwind:hover {
-    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
     color: #38B2AC;
 }
 
 .django:hover {
-    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
     color: #092E20;
 }
 
 .mongodb:hover {
-    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
     color: #47A248;
 }
 
 .node:hover {
-    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
     color: #68A063;
 }
 
 .express:hover {
-    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
     color: #000000;
 }

@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@layer utilities {
+    .text-outline {
+      -webkit-text-stroke: 1px white; /* Define el grosor y color del borde */
+      color: transparent; /* Hace que el relleno sea transparente */
+    }
+  }
+  
