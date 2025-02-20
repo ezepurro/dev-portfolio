@@ -1,9 +1,10 @@
 ---
 import { mainMenu } from '../data/menuData';
 import Layout from '../layouts/Layout.astro';
-import Welcome from '../components/Welcome.astro';
 import Navbar from '../components/Navbar.astro';
+import Welcome from '../components/Welcome.astro';
 import About from '../components/About.astro';
+import Portfolio from '../components/Portfolio.astro';
 import '../styles/global.css';
 ---
 
@@ -15,5 +16,12 @@ import '../styles/global.css';
 			<About />
 		</div>
 	</div>
-	
+	<div class="relative min-h-screen px-5 text-white">
+	<div class="absolute inset-0 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)] transform rotate-180"></div>
+		<div class="relative z-10">
+			<Portfolio />
+		</div>
+	</div>
 </Layout>
+
+

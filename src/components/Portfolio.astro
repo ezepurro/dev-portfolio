@@ -1,0 +1,29 @@
+---
+import { Icon } from 'astro-icon/components';
+import { projectData } from '../data/projectData';
+---
+
+<section id="portfolio" class="py-20">
+    <div class="container mx-auto px-4">
+        <h1 class="text-5xl font-extrabold text-center mt-5">My Portfolio</h1>
+        <p class="text-center mb-10">A collection of projects I've developed or contributed to</p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {projectData.map((project) => (
+                <article class="border-2 p-4 rounded-2xl shadow-lg transition-transform transform hover:scale-105">
+                    <img src={project.img} class="rounded-2xl mb-3 w-full h-48 object-cover" alt={project.title} />
+                    <h4 class="font-bold text-lg mb-2">{project.title}</h4>
+                    <p class="text-white mb-3">{project.shortDescription}</p>
+                    <div class="flex space-x-4">
+                        <a href={project.link} class="text-4xl text-blue-600 hover:text-blue-800" target="_blank">
+                            <Icon name="logos/web" />
+                        </a>
+                        <a href={project.githubRepo} class="text-4xl text-[#6f42c1] hover:text-[#5f38a6]" target="_blank">
+                            <Icon name="logos/github" />
+                        </a>
+                    </div>
+                </article>
+            ))}
+        </div>
+    </div>
+</section>

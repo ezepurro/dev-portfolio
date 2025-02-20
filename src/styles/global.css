@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
+
 
 @layer utilities {
     .text-outline {
-      -webkit-text-stroke: 1px white; /* Define el grosor y color del borde */
-      color: transparent; /* Hace que el relleno sea transparente */
+      -webkit-text-stroke: 1px white; 
+      color: transparent; 
     }
   }
   
+  @layer base {
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+  }
