@@ -1,5 +1,18 @@
 ---
-const { project } = Astro.props;
+interface Project {
+    title: string;
+    img: string;
+    shortDescription: string;
+    link?: string;
+    githubRepo: string;
+    techs: Tech[];
+}
+
+interface Tech {
+    name: string;
+}
+
+const { project } = Astro.props as { project: Project };
 import { Icon } from 'astro-icon/components';
 ---
 
@@ -7,15 +20,23 @@ import { Icon } from 'astro-icon/components';
     <img src={project.img} class="rounded-2xl mb-3 w-full h-48 object-cover" alt={project.title} />
     <h4 class="font-bold text-lg mb-2">{project.title}</h4>
     <p class="text-white mb-3 text-justify">{project.shortDescription}</p>
-    <div class="flex space-x-4">
+    
+    <div class="flex space-x-4 items-center">
         {
         project.link && (
             <a href={project.link} class="text-4xl text-blue-600 hover:text-blue-800" target="_blank">
                 <Icon name="logos/web" />
-            </a>)
-        }
+            </a>
+        )}
         <a href={project.githubRepo} class="text-4xl text-[#6f42c1] hover:text-[#5f38a6]" target="_blank">
             <Icon name="logos/github" />
         </a>
+        <div class="flex space-x-4 ml-auto md:justify-end">
+            {
+                project.techs.map((tech) => (
+                    <Icon name={tech.name} class="text-4xl text-gray-400 hover:text-gray-500" />
+                ))
+            }
+        </div>
     </div>
 </article>
