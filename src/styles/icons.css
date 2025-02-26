@@ -1,57 +1,73 @@
-svg {
-    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
-    cursor: pointer;
-}
 
-.python:hover {
-    color: #3776AB;
+#about {
+    svg {
+        transition: transform 0.2s ease-in-out, color 0.4s ease-in-out, filter 0.3s ease-in-out;
+        cursor: pointer;
+        filter: drop-shadow(0 0 50px rgba(204, 204, 204, 0.747));
+    }
+    
+    .python:hover {
+        color: #3776AB;
+        filter: drop-shadow(0 0 10px rgba(55, 118, 171, 0.7));
+    }
+    
+    .javascript:hover {
+        color: #F7DF1E;
+        filter: drop-shadow(0 0 10px rgba(247, 223, 30, 0.7));
+    }
+    
+    .typescript:hover {
+        color: #3178C6;
+        filter: drop-shadow(0 0 10px rgba(49, 120, 198, 0.7));
+    }
+    
+    .java:hover {
+        color: #EC2025;
+        filter: drop-shadow(0 0 10px rgba(236, 32, 37, 0.7));
+    }
+    
+    .html:hover {
+        color: #E34F26;
+        filter: drop-shadow(0 0 10px rgba(227, 79, 38, 0.7));
+    }
+    
+    .css:hover {
+        color: #1572B6;
+        filter: drop-shadow(0 0 10px rgba(21, 114, 182, 0.7));
+    }
+    
+    .react:hover {
+        color: #61DAFB;
+        filter: drop-shadow(0 0 10px rgba(97, 218, 251, 0.7));
+    }
+    
+    .tailwind:hover {
+        color: #38B2AC;
+        filter: drop-shadow(0 0 10px rgba(56, 178, 172, 0.7));
+    }
+    
+    .django:hover {
+        color: #092E20;
+        filter: drop-shadow(0 0 10px rgba(9, 46, 32, 0.7));
+    }
+    
+    .mongodb:hover {
+        color: #47A248;
+        filter: drop-shadow(0 0 10px rgba(71, 162, 72, 0.7));
+    }
+    
+    .node:hover {
+        color: #68A063;
+        filter: drop-shadow(0 0 10px rgba(104, 160, 99, 0.7));
+    }
+    
+    .express:hover {
+        color: #3b3b3b;
+        filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.7));
+    }
+    
+    .astro:hover {
+        color: #FF5D01;
+        filter: drop-shadow(0 0 10px rgba(255, 93, 1, 0.7));
+    }
 }
-
-.javascript:hover {
-    color: #F7DF1E;
-}
-
-.typescript:hover {
-    color: #3178C6;
-}
-
-.java:hover {
-    color: #EC2025;
-}
-
-.html:hover {
-    color: #E34F26;
-}
-
-.css:hover {
-    color: #1572B6;
-}
-
-.react:hover {
-    color: #61DAFB;
-}
-
-.tailwind:hover {
-    color: #38B2AC;
-}
-
-.django:hover {
-    color: #092E20;
-}
-
-.mongodb:hover {
-    color: #47A248;
-}
-
-.node:hover {
-    color: #68A063;
-}
-
-.express:hover {
-    color: #000000;
-}
-
-.astro:hover {
-    color: #FF5D01;
-}
-
