@@ -70,4 +70,9 @@
         color: #FF5D01;
         filter: drop-shadow(0 0 10px rgba(255, 93, 1, 0.7));
     }
+
+    .prisma:hover {
+        color: #2D3748;
+        filter: drop-shadow(0 0 10px rgba(45, 55, 72, 0.7));
+    }
 }

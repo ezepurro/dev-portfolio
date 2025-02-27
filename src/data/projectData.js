@@ -16,7 +16,7 @@ export const projectData = [
     {
         title: 'Web Planner',
         img: 'img/planificador-web-1.png',
-        shortDescription: 'Web planner built with Django for organizing and managing household tasks efficiently.',
+        shortDescription: 'Web planner for organizing and managing household tasks efficiently.',
         link: '',
         githubRepo: 'https://github.com/ezepurro/planificadorweb-django',
         techs: [

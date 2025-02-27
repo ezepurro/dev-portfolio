@@ -16,4 +16,5 @@ export const techData = [
     { name: 'logos/express', class: 'express text-[6rem] text-white', category: 'Backend Development' },
 
     { name: 'logos/mongodb', class: 'mongodb text-[6rem] text-[#47A248] md:text-white', category: 'Databases' },
+    { name: 'logos/prisma', class: 'prisma text-[6rem] text-[#2D3748] md:text-white', category: 'Databases' },
 ];

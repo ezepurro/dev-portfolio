@@ -1,0 +1,19 @@
+---
+import { socialMediaData } from "../data/socialMediaData";
+---
+
+<footer class=" h-30 w-full text-white flex items-center justify-center">
+    <ul class="flex lg:gap-20 gap-10">
+        {
+            socialMediaData.map(
+                (data) => (
+                    <li class="text-[1.1rem]">
+                        <a href={data.link} target="_blank" class="hover:underline">
+                            {data.name.toUpperCase()}
+                        </a>
+                    </li>
+                )
+            )
+        }
+    </ul>
+</footer>
