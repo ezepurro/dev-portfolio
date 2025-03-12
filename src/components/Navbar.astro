@@ -1,12 +1,17 @@
 ---
 const { origin } = Astro.props;
+
+interface dataItem {
+    link: string,
+    content: string
+}
 ---
 
 <nav class="pt-5">
     <div class="h-10 lg:h-15 w-full flex justify-center items-center border rounded-2xl mt-5">
         <ul class="flex lg:gap-20 gap-10">
             {
-                origin.map((data) => (
+                origin.map((data:dataItem) => (
                     <li>
                         <a href={data.link} class="hover:underline">{data.content}</a>
                     </li>

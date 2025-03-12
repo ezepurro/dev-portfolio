@@ -75,4 +75,29 @@
         color: #2D3748;
         filter: drop-shadow(0 0 10px rgba(45, 55, 72, 0.7));
     }
+
+    .figma:hover {
+        color: #F24E1E;
+        filter: drop-shadow(0 0 10px rgba(242, 78, 30, 0.7));
+    }
+
+    .git:hover {
+        color: #F05032;
+        filter: drop-shadow(0 0 10px rgba(240, 80, 50, 0.7));
+    }
+
+    .photoshop:hover {
+        color: #31A8FF;
+        filter: drop-shadow(0 0 10px rgba(49, 168, 255, 0.7));
+    }
+
+    .illustrator:hover {
+        color: #FF9A00;
+        filter: drop-shadow(0 0 10px rgba(255, 154, 0, 0.7));
+    }
+
+    .lightroom:hover {
+        color: #B4D6E0;
+        filter: drop-shadow(0 0 10px rgba(153, 153, 255, 0.7));
+    }
 }
