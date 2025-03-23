@@ -29,7 +29,7 @@ export const projectData = [
         title: 'Solid Cat Landing Page',
         img: 'img/solid-cat-landing-page-1.png',
         shortDescription: 'Responsive landing page for Solid Cat with a modern and sleek design.',
-        link: '',
+        link: 'https://www.solidcat.dev',
         githubRepo: 'https://github.com/ezepurro/solidcat-web',
         techs: [
             {name: 'logos/astro'},
