@@ -4,5 +4,3 @@ export const mainMenu = [
     {link:"#portfolio", content:"Portfolio"},
     {link:"#contact", content:"Contact me"},
 ];
-
-// test
