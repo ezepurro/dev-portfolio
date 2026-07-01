@@ -17,6 +17,7 @@ export const techData = [
 
     { name: 'logos/mongodb', class: 'mongodb text-[6rem] text-[#47A248] md:text-white', category: 'Databases', title: 'MongoDB' },
     { name: 'logos/prisma', class: 'prisma text-[6rem] text-[#2D3748] md:text-white', category: 'Databases', title: 'Prisma' },
+    { name: 'logos/sqlserver', class: 'sqlserver text-[6rem] text-[#CC2927] md:text-white', category: 'Databases', title: 'SQL Server' },
 
     { name: 'logos/figma', class: 'figma text-[6rem] text-[#F24E1E] md:text-white', category: 'Other tools and technologies', title: 'Figma' },
     { name: 'logos/git', class: 'git text-[6rem] text-[#F05032] md:text-white', category: 'Other tools and technologies', title: 'Git' },

@@ -100,4 +100,9 @@
         color: #B4D6E0;
         filter: drop-shadow(0 0 10px rgba(153, 153, 255, 0.7));
     }
+
+    .sqlserver:hover {
+        color: #CC2927;
+        filter: drop-shadow(0 0 10px rgba(204, 41, 39, 0.7));
+    }
 }
