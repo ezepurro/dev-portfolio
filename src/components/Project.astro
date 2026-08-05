@@ -6,6 +6,7 @@ interface Project {
     link?: string;
     githubRepo: string;
     techs: Tech[];
+    releaseDate: string;
 }
 
 interface Tech {
@@ -19,6 +20,7 @@ import { Icon } from 'astro-icon/components';
 <article class="border-2 p-4 rounded-2xl shadow-lg transition-transform transform hover:scale-105">
     <img src={project.img} class="rounded-2xl mb-3 w-full h-48 object-cover" alt={project.title} />
     <h4 class="font-bold text-lg mb-2">{project.title}</h4>
+    <p class="text-gray-400 mb-3">{project.releaseDate}</p>
     <p class="text-white mb-3 text-justify">{project.shortDescription}</p>
     
     <div class="flex space-x-4 items-center">
